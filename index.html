@@ -80,7 +80,7 @@
                         </div>
                     </swiper-slide>
                 </div>
-                <swiper-slide class="sliderbg1 d-flex align-items-end justify-content-around">
+                <swiper-slide class="sliderbg1 d-flex align-items-end justify-content-evenly">
                     <div class="box1">
                         <div class="aibtn">Active</div>
                         <div class="text2">AWS Deep Learning Challenge</div>
@@ -126,7 +126,7 @@
                     <div class="maxheight123 img81">
                     <img class="align-items-start" src="time1.png">
                 </div>
-                    <div class="d-flex">
+                    <div class="d-flex posit">
                         <div>
                             <img class="img5" src="Item2.png">
                             <div class="prev"><img src="left.png"><div class="vector swiper-button-prev"></div></div>
@@ -139,7 +139,7 @@
                         </div>
                     </div>
                 </swiper-slide>
-            <swiper-slide class="sliderbg2 d-flex align-items-end justify-content-around">
+            <swiper-slide class="sliderbg2 d-flex align-items-end justify-content-evenly">
                 <div class="box1">
                     <div class="aibtn">Active</div>
                     <div class="text2">ICON HYPERBUILD</div>
@@ -192,7 +192,7 @@
                 <img class="" src="icon11.png">
             </div>
             </div>
-                <div class="d-flex">
+                <div class="d-flex posit">
                     <div>
                         <img class="img5" src="Item3.png">
                         <div class="prev"><img src="left.png"><div class="vector swiper-button-prev"></div></div>
@@ -205,7 +205,7 @@
                     </div>
                 </div>
             </swiper-slide>
-            <swiper-slide class="sliderbg3 d-flex align-items-end justify-content-around">
+            <swiper-slide class="sliderbg3 d-flex align-items-end justify-content-evenly">
                 <div class="box1">
                     <div class="aibtn">Active</div>
                     <div class="text2">TEAM MATCH EVENT</div>
@@ -251,7 +251,7 @@
                 <div class="maxheight123 img81">
                     <img class="align-items-start" src="time3.png">
                 </div>
-                <div class="d-flex">
+                <div class="d-flex posit">
                     <div>
                         <img class="img5" src="Item4.png">
                         <div class="prev"><img src="left.png"><div class="vector swiper-button-prev"></div></div>
@@ -380,11 +380,12 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
         <script>
             var swiper = new Swiper('.swiper', {
+                centeredSlides: true,
                 slidesPerView: 'auto',
                 preventClicksPropagation: false,
                 loopPreventsSlide: false,
                 slidesPerGroup: 1,
-                spaceBetween: 150,
+                spaceBetween: 110,
             allowTouchMove: false,
         loop: true,
         pagination: '.swiper-pagination',

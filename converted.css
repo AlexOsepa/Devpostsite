@@ -1661,4 +1661,9 @@ swiper-slide {
   margin-top: 20px;
 }
 
+.posit {
+  position: relative;
+  right: 110px;
+}
+
 /*# sourceMappingURL=converted.css.map */
