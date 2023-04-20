@@ -13,6 +13,11 @@ $C12: #141414;
 $C13: #E0282E;
 $C14: #F4801A;
 
+@font-face {
+    font-family: Helvetica Neue;
+    src: url(helveticaneue.ttf);
+}
+
 body, html {
     width: 100%;
     height: 100%;
@@ -54,7 +59,7 @@ body, html {
     background-size: cover;
     background-position: center center;
     left: 0px;
-    top: 70px;
+    top: 0px;
     border-radius: 0px;
 }
 .box1 {
@@ -1411,4 +1416,94 @@ body, html {
 }
 .img53 {
     margin-right: 8px;
+}
+.sliderbg1 {
+    background: url(ai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 600px;
+}
+.swiper {
+    width: 100%;
+    height: 600px;
+}
+swiper-container {
+    width: 100%;
+    height: 600px;
+}
+.swiperwrapper {
+    width: 100%;
+    height: 600px;
+}
+swiper-slide {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.imgbox {
+    width: 100%;
+}
+.swiper-button-prev {
+    opacity: 0;
+}
+.swiper-button-next {
+    opacity: 0;
+}
+.sliderbg2 {
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 600px;
+}
+.sliderbg3 {
+    background: url(party.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 600px;
+}
+.maxheight123 {
+    height: 100%;
+}
+.img81 {
+    margin-top: 8px;
+}
+.time22 {
+    height: 84px;
+    width: 80%
+}
+.aibtn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: $C5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    width: 62px;
+    height: 35px;
+    background: $C9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.aitext3 {
+    width: 291px;
+    height: 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: $C2;
+    margin-top: 20px;
 }
