@@ -12,6 +12,8 @@ $C11: #1677FF;
 $C12: #141414;
 $C13: #E0282E;
 $C14: #F4801A;
+$C15: #F2BD27;
+$C16: #9E339F;
 
 @font-face {
     font-family: Helvetica Neue;
@@ -578,7 +580,7 @@ body, html {
 .dc1 {
     box-sizing: border-box;
     color: $C2;
-    width: 235px;
+    width: 100%;
     display: flex;
     justify-content: center;
     background-color: $C1;
@@ -588,6 +590,9 @@ body, html {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
+}
+.dropdown-content {
+    width: 100%;
 }
 .header12 {
     width: 50%;
@@ -607,6 +612,18 @@ body, html {
     border-radius: 8px 8px 0px 0px;
 }
 .frametext1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 4px;
+    background: rgba(39, 43, 48, 0.5);
+    border-radius: 4px;
+    display: flex;
+    margin-top: 4px;
+    margin-left: 16px;
+    width: 50%;
+}
+.frametext1alt {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -1510,4 +1527,352 @@ swiper-slide {
 .posit {
     position: relative;
     right: 110px;
+}
+.john1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: $C5;
+    margin-left: 8px;
+}
+.john2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: $C2;
+    margin-left: 8px;
+}
+.pr1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    height: 52px;
+    background: $C1;
+    box-shadow: 0px 4px 4px rgba(0, 185, 107, 0.25);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: $C9;
+    width: 16%;
+    margin-right: 8px;
+}
+.pr2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    height: 52px;
+    background: $C1;
+    box-shadow: 0px 4px 4px rgba(0, 185, 107, 0.25);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: $C15;
+    width: 22%;
+    margin-right: 8px;
+}
+.pr3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    height: 52px;
+    background: $C1;
+    box-shadow: 0px 4px 4px rgba(0, 185, 107, 0.25);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: $C7;
+    width: 17%;
+    margin-right: 8px;
+}
+.pr4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    height: 52px;
+    background: $C1;
+    box-shadow: 0px 4px 4px rgba(0, 185, 107, 0.25);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: $C16;
+    width: 18%;
+    margin-right: 8px;
+}
+.pr5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    height: 52px;
+    background: $C1;
+    box-shadow: 0px 4px 4px rgba(0, 185, 107, 0.25);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: $C13;
+    width: 10%;
+    margin-right: 8px;
+}
+.lesswidth {
+    margin-top: 16px;
+}
+.mainheader51alt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    height: 60px;
+    width: 73%;
+    background: $C11;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+.lr1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: $C2;
+}
+.dropbtnalt {
+    border-bottom: 1px solid $C10;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    background-color: $C1;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: $C2;
+    border-left: hidden;
+    border-top: hidden;
+    margin-top: 8px;
+}
+.blackbox {
+    padding: 8px;
+    height: 150px;
+    background: $C1;
+    border-radius: 4px;
+    width: 48%;
+}
+.numbers {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: $C7;
+    text-shadow: 0px 4px 4px rgba(58, 204, 230, 0.25);
+}
+.lesswidth12 {
+    width: 73%;
+}
+.blackbox2 {
+    padding: 8px;
+    height: 126px;
+    background: $C1;
+    border-radius: 4px;
+    width: 50%;
+}
+.lvl1 {
+    width: 38px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: $C6;
+}
+.xp {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: $C2;
+}
+.xp2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    width: 36px;
+    height: 22px;
+    background: $C7;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: $C6;
+    margin-left: 18px;
+}
+.xp3 {
+    margin-bottom: 8px;
+}
+.bluebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    height: 60px;
+    width: 48%;
+    background: $C11;
+    border-radius: 4px;
+}
+.wallet {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: $C6;
+    margin-left: 20px;
+}
+.margr {
+    margin-right: 28px;
+}
+.chart100 {
+    width: 100%;
+}
+.chart101 {
+    width: 50%;
+}
+.width22 {
+    width: 50%;
+}
+.width23 {
+    width: 96%;
+}
+.numbers21 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: $C9;
+}
+.numbers21alt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: $C14;
+}
+.numbers22 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: $C9;
+    text-shadow: 0px 4px 4px rgba(58, 204, 230, 0.25);
+    margin-top: 16px;
+}
+.numbers22alt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: $C14;
+    text-shadow: 0px 4px 4px rgba(58, 204, 230, 0.25);
+    margin-top: 16px;
+}
+.blackbox11 {
+    padding: 8px;
+    height: 201px;
+    background: $C1;
+    border-radius: 4px;
+    width: 96%;
+}
+.circ612 {
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    margin: 30px;
+}
+.grntext {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: $C9;
+}
+.betbg {
+    width: 75%;
+}
+.optext {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.2);
+    width: 122px;
+}
+.optext2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.2);
+    width: 122px;
+}
+.bgcolor1 {
+    background-color: $C8;
+}
+.optext3 {
+    margin-bottom: 30px;
+}
+.spacer61 {
+    height: 186px;
+    background-color: $C8;
 }
